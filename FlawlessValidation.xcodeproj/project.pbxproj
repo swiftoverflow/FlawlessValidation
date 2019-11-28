@@ -18,6 +18,7 @@
 		15C97C6C238FB3D1007B78FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C97C6A238FB3D1007B78FB /* LaunchScreen.storyboard */; };
 		15C97C72238FBA52007B78FB /* FlawlessValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C97C71238FBA52007B78FB /* FlawlessValidation.swift */; };
 		15C97C74238FBFB2007B78FB /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 15C97C73238FBFB2007B78FB /* .travis.yml */; };
+		15C97C76238FC186007B78FB /* .slather.yml in Resources */ = {isa = PBXBuildFile; fileRef = 15C97C75238FC186007B78FB /* .slather.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		15C97C6D238FB3D1007B78FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15C97C71238FBA52007B78FB /* FlawlessValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlawlessValidation.swift; sourceTree = "<group>"; };
 		15C97C73238FBFB2007B78FB /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
+		15C97C75238FC186007B78FB /* .slather.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .slather.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		15C97C0F238FB30E007B78FB = {
 			isa = PBXGroup;
 			children = (
+				15C97C75238FC186007B78FB /* .slather.yml */,
 				15C97C73238FBFB2007B78FB /* .travis.yml */,
 				15C97C1B238FB30E007B78FB /* FlawlessValidation */,
 				15C97C26238FB30E007B78FB /* FlawlessValidationTests */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15C97C74238FBFB2007B78FB /* .travis.yml in Resources */,
+				15C97C76238FC186007B78FB /* .slather.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

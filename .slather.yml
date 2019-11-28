@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: FlawlessValidation.xcodeproj
+scheme: FlawlessValidation
+output_directory: reports
+ignore:
+  - FlawlessValidationTests/*
